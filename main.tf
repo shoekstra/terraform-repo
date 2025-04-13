@@ -4,8 +4,6 @@ variable "name" {
 }
 
 resource "null_resource" "name" {
-  count = var.name == "world" ? 1 : 0
-
   provisioner "local-exec" {
     command = "echo Hello, ${var.name}!"
   }
