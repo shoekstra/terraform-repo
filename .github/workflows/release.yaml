@@ -6,8 +6,9 @@ on:
       - master
 
 permissions:
-  contents: write
-  pull-requests: write
+  contents: write # Required for actions like creating release notes
+  issues: write # Needed to create and manage labels
+  pull-requests: write # To manage PRs, especially when making release-related changes
 
 jobs:
   release:
