@@ -5,6 +5,6 @@ on:
     types: [opened, synchronize, reopened, edited]
 
 jobs:
-  run-reusable-checks:
-    uses: shoekstra/terraform-workflows/.github/workflows/reusable-pr-checks.yml@main
+  terraform-checks:
+    uses: shoekstra/terraform-workflows/.github/workflows/pr-checks.yaml@master
     secrets: inherit
