@@ -1,0 +1,10 @@
+name: PR Checks
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, edited]
+
+jobs:
+  terraform-checks:
+    uses: shoekstra/terraform-workflows/.github/workflows/pr-checks.yaml@master
+    secrets: inherit
