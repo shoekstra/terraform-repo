@@ -1,13 +1,13 @@
-variable "hello" {
+variable "name" {
   type        = string
-  description = "Hello variable"
+  description = "name variable"
 }
 
-resource "null_resource" "hello" {
-  count = var.hello == "world" ? 1 : 0
+resource "null_resource" "name" {
+  count = var.name == "world" ? 1 : 0
 
   provisioner "local-exec" {
-    command = "echo Hello, ${var.hello}!"
+    command = "echo Hello, ${var.name}!"
   }
 }
 
