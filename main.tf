@@ -1,6 +1,6 @@
 variable "name" {
   type        = string
-  description = "name"
+  description = "what your name is"
 }
 
 resource "null_resource" "name" {
