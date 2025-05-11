@@ -10,7 +10,21 @@ permissions:
   issues: write # Needed to create and manage labels
   pull-requests: write # To manage PRs, especially when making release-related changes
 
+# jobs:
+#   release:
+#     uses: shoekstra/terraform-workflows/.github/workflows/release.yaml@master
+#     secrets: inherit
+
 jobs:
   release:
-    uses: shoekstra/terraform-workflows/.github/workflows/release.yaml@master
-    secrets: inherit
+    name: Release Please
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Required for actions like creating release notes
+      issues: write # Needed to create and manage labels
+      pull-requests: write # To manage PRs, especially when making release-related changes
+    steps:
+      - uses: googleapis/release-please-action@v4
+        with:
+          config-file: .github/release-please-config.json
+          manifest-file: .release-please-manifest.json
