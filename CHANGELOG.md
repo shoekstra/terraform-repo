@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.1](https://github.com/shoekstra/terraform-repo/compare/v1.2.0...v1.2.1) (2025-05-11)
+
+
+### 🐛 Fixes
+
+* Add a feature ([1b72b70](https://github.com/shoekstra/terraform-repo/commit/1b72b707e9f8d9ce229aa06c4661719d79d21279))
+* Add missing config file ([ffaa35b](https://github.com/shoekstra/terraform-repo/commit/ffaa35b6b1e2aa75344b01f50b5bd93ac69be9b6))
+* Add missing manifest file ([e9b6e8c](https://github.com/shoekstra/terraform-repo/commit/e9b6e8c460b4264a99fc6f9fb8f4d1846dafef17))
+* Add more release manifest ([c00e14a](https://github.com/shoekstra/terraform-repo/commit/c00e14af336c033bf2a516e958fd28db4bf0ed6e))
+* something was broken ([#14](https://github.com/shoekstra/terraform-repo/issues/14)) ([e3f9fd4](https://github.com/shoekstra/terraform-repo/commit/e3f9fd4c18b08e6a5e332ab6c8074b0e18833118))
+* Start with empty manifest file ([15ff224](https://github.com/shoekstra/terraform-repo/commit/15ff224547a55c8a6f078650725595444d4c61aa))
+
 ## [1.2.0](https://github.com/shoekstra/terraform-repo/compare/v1.1.0...v1.2.0) (2025-05-11)
 
 
