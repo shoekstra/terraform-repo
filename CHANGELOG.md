@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/shoekstra/terraform-repo/compare/v1.1.0...v1.2.0) (2025-05-11)
+
+
+### Features
+
+* some new thing ([#11](https://github.com/shoekstra/terraform-repo/issues/11)) ([9412ec0](https://github.com/shoekstra/terraform-repo/commit/9412ec0880374a68c103835f97f7d22e17dff83c))
+
+
+### Bug Fixes
+
+* undo new thing ([#13](https://github.com/shoekstra/terraform-repo/issues/13)) ([da837c2](https://github.com/shoekstra/terraform-repo/commit/da837c2284a0599fc409c522ebf1ef45e515274e))
+
 ## [1.1.0](https://github.com/shoekstra/terraform-repo/compare/v1.0.0...v1.1.0) (2025-04-14)
 
 
