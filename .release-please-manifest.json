@@ -3,5 +3,6 @@
     ".": {
       "release-type": "terraform-module"
     }
-  }
+  },
+  ".": "0.0.0"
 }
